@@ -1,5 +1,5 @@
 <?php
-$connect=mysqli_connect('localhost', 'root','','wallet');
+$connect=mysqli_connect('localhost', 'root','','NB-Wallet-master');
 $db=mysqli_select_db($connect , 'wallet');
 if(!$connect)
 	die("Database Connection failed" . mysqli_error($connect));
